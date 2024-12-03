@@ -2,7 +2,7 @@ import { useParams, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Container, Spinner, Card, Button, Row, Col, Badge } from "react-bootstrap";
-import { FaExternalLinkAlt, FaCalendarAlt, FaGlobe, FaBook } from "react-icons/fa";
+import { FaExternalLinkAlt, FaCalendarAlt, FaGlobe, FaBook, FaFilter } from "react-icons/fa";
 import "./styles/ArticuloPage.css";
 
 function ArticuloPage() {
